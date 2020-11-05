@@ -11,9 +11,7 @@ body {
     display: block;
     clear: both;
 }
-
 .header {
-    width: 400px;
     height: 100px;
     background-color: #141f40;
 }
@@ -23,23 +21,32 @@ body {
     background-color: #80bfa8;
     float: left;
 }
+
+.center-right {
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+
 .center-upper {
     width: 150px;
     height: 50px;
     background-color: #dbd400;
-    float: left;
+    /* float: left; */
 }
-.center {
+
+.center-middle {
     width: 150px;
     height: 100px;
     background-color: #0093b7;
-    float: right;
+    /* float: left; */
 }
+
 .center-lower {
     width: 250px;
     height: 100px;
     background-color: #8c2727;
-    float: right;
+    /* float: right; */
 }
 .right {
     width: 100px;
@@ -48,7 +55,6 @@ body {
     float: right;
 }
 .footer {
-    width: 400px;
     height: 100px;
     background-color: #d98d30 
 }
