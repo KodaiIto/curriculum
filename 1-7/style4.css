@@ -1,0 +1,82 @@
+body {
+    min-width: 100%;
+    height: 100%;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    background-color:#141f40;
+}
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.center-upper {
+    width: 250px;
+    height: 100px;
+    background-color: #0093b7;
+    float: left;
+}
+.center-lower {
+    width: 100px;
+    height: 150px;
+    background-color: #dbd403;
+    float: left;
+}
+.right-upper {
+    width: 150px;
+    height: 50px;
+    background-color: #ff9e6b;
+    float: left;
+}
+.right-lower {
+    width: 150px;
+    height: 100px;
+    background-color: #8c2727;
+    float: left;
+}
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+
+.left-upper {
+    width: 100px;
+    height: 150px;
+    background-color: #dbd403;
+    float: left;
+}
+.center-upper-2 {
+    width: 150px;
+    height: 50px;
+    background-color: #8c2727;
+    float: left;
+}
+.center-lower-2 {
+    width: 150px;
+    height: 100px;
+    background-color: #ff9e6b;
+    float: right;
+}
+.left-lower {
+    width: 250px;
+    height: 100px;
+    background-color: #0093b7;
+    float: left;
+}
+.right {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: right;
+}
