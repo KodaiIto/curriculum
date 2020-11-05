@@ -1,0 +1,56 @@
+/* windowの横幅が最大479pxまでの場合に適用（スマホ用） */
+@media screen and (max-width: 479px) {
+    #wrapper {
+        width: 200px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+    .header-inner {
+        width: 60px;
+        height: 160px;
+        margin: 20px 70px;
+    }
+    .header-inner-text1 {
+        float: none; 
+        margin: 10px;
+    }
+    .header-inner-text2 {
+        float: none;
+        margin: 10px;
+    }
+    .header-inner-text3 {
+        float: none;
+        margin: 10px;
+    }
+    .left {
+        float: none;
+        width: 200px;
+        height: 100px;
+    }
+    .right {
+        width: 200px;
+        height: 210px;
+    }
+    .right-inner1 {
+        width: 130px;
+        margin: 20px 30px 10px 30px;
+    }
+    .right-inner2 {
+        width: 130px;
+        margin: 10px 30px 10px 30px;
+    }
+    .right-inner3 {
+        width: 130px;
+        margin: 10px 30px 20px 30px;
+    }
+    .footer {
+        width: 200px;
+        height: 100px;
+    }
+}
