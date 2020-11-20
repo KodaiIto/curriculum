@@ -6,5 +6,6 @@ foreach($fruits as $key => $value) {
     echo $value;
     echo "<br>";
 }
+
 ?>
 
