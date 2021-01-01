@@ -1,0 +1,50 @@
+main {
+    width:60%;
+    margin: 0 auto;
+    padding: 5% 0 0 18%;
+} 
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.header {
+    margin: 0 0 1.5% 0;
+}
+.new_books {
+    color:white;
+    background-color: #0066FF;
+    border-radius:3px;
+    border: none;
+    float: left;
+    margin:1% 1% 0 0;
+}
+.logout {
+    color: white;
+    background-color: gray;
+    border-radius:3px;
+    border: none;
+    float: left;
+    margin:1% 0 0 0;
+}
+.main_title {
+    width:20%;
+    background-color:#DDDDDD;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color:#EEEEEE;
+    border:1px solid #DDDDDD;
+}
+td {
+    border:1px solid #DDDDDD;
+    text-align: center;
+}
+.delete {
+    color: white;
+    background-color: red;
+    border-radius:3px;
+    border: none;
+}
