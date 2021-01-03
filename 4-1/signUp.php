@@ -34,17 +34,9 @@ if(isset($_POST["signUp"])){
     <h1>新規登録</h1>
     <form method="POST" action="">
         user:<br>
-<<<<<<< Updated upstream
-        <input type="text" name="name" id="name">
-        <br>
-        password:<br>
-        <input type="password" name="password" id="password">
-        <br>
-=======
         <input type="text" name="name" id="name"><br>
         password:<br>
         <input type="password" name="password" id="password"><br>
->>>>>>> Stashed changes
         <input type="submit" value="submit" name ="signUp" id="signUp">
     </form>
 </body>
