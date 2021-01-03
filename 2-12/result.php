@@ -1,4 +1,6 @@
 <?php
+//result:結果
+
     $my_name = $_POST['my_name'];
     $password = $_POST['password'];
     $sex = $_POST['sex'];

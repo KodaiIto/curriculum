@@ -51,7 +51,7 @@
     ・景品はradioで準備します。
     ・個数はselectタグとし、1から10まで選択可能としてください。
     ・各name属性はお任せします。-->
-
+    
     ＜課題＞<br>
     お名前：<input type="text" name="my_name" /><br>
     ご希望商品：<input type="radio" name="award" value="A賞" />A賞
@@ -61,10 +61,11 @@
     個数：<select name="number">
             <?php for ($i=1;$i<=10;$i++) { ?>
                 <option value="<?php echo $i; ?>">
-                <?php echo $i; ?>
+                    <?php echo $i; ?>
                 </option>
             <?php } ?>
          </select>      
          <br>
     <input type="submit" value="申込" />      
 </form>
+<!--HTMLにPHPを組み込むときはインデント（字下げ）に注意する。-->
