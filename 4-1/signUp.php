@@ -2,20 +2,12 @@
 require_once('db_connect.php');
 
 if(isset($_POST["signUp"])){
-<<<<<<< Updated upstream
-    if( !empty($_POST["name"]) && !empty($_POST["password"])){
-=======
     if(!empty($_POST["name"]) && !empty($_POST["password"])){
->>>>>>> Stashed changes
         $name = $_POST["name"];
         $pass = $_POST["password"];
         $pdo = connect();
         try {
-<<<<<<< Updated upstream
-            $sql = "INSERT INTO USERS(name,password) VALUE(:name,:password)";
-=======
             $sql = "INSERT INTO USERS(name,password) VALUES(:name,:password)";
->>>>>>> Stashed changes
             $password_hash = password_hash($pass, PASSWORD_DEFAULT);
             $stmt = $pdo->prepare($sql);
             $stmt->bindParam(':name', $name);
@@ -23,11 +15,7 @@ if(isset($_POST["signUp"])){
             $stmt->execute();
             echo  "登録完了！";
         } catch (PDOException $e) {
-<<<<<<< Updated upstream
-            echo "Error:". $e->getMessage;
-=======
             echo "Error:". $e->getMessage();
->>>>>>> Stashed changes
             die();
         }
     } else {
